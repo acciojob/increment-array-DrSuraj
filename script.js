@@ -1,6 +1,7 @@
 let arr = [1, 2, 3, 4, 5];
+
 function incrementArray(arr) {
-  //your code here
+  return arr.map(element => element + 1);
 }
 
-alert(incrementArray(arr));
+console.log(incrementArray(arr));
